@@ -1,5 +1,5 @@
 /*************************************************
-**  jQuery RollOver version 1.0.5
+**  jQuery RollOver version 1.0.6
 **  Copyright Nao Fujimoto, licensed MIT
 **************************************************/
 
