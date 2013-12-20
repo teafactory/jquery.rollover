@@ -50,7 +50,7 @@
 				var w = $(this).attr('width');
 				var h = $(this).attr('height');
 				var overImg = imgPath.replace(/\.jpg|\.jpeg|\.png|\.gif/, '_on$&') ;
-				$(this).css({'position': 'absolute', 'left': 0, 'top': 0}).wrap('<span></span>').parent().css({'width': w, 'height': h, 'position': 'relative', 'display': 'block'}).prepend('<img src="'+overImg+'" width="'+w+'" height="'+h+'" alt="" />');
+				$(this).css({'position': 'absolute', 'left': 0, 'top': 0}).wrap('<span></span>').parent().css({position': 'relative', 'display': 'block'}).prepend('<img src="'+overImg+'" width="'+w+'" height="'+h+'" alt="" />');
 				imgsToLoad.push(overImg);
 			});
 
